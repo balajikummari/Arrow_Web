@@ -106,7 +106,7 @@ class CustomizationPage extends Component<{}, IAppDetails> {
                     </label>
                     </div>
                     <br />
-
+                    <br />
                     <textarea id="w3review" placeholder="Description" name="description" rows={10} cols={30} required onChange={(event) => this.handleUserInput(event)} />
                 </div>
                 <div className="choose-theme">

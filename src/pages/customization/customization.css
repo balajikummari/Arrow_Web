@@ -68,21 +68,18 @@ input[type=submit]{
 .image-container{
     width: 150px;
     height: 150px;
-    position: relative;
     margin-top: 10px;
 }
 .upload-image{
     cursor: pointer;
-    padding: 9px 1px;
+    padding: 10px 4px;
     color: white;
     background-color: rgba(43, 87, 117, 0.8);
     font-size: 12px;
-    position: absolute;
+    display: block;
     width: 150px;
     text-align: center;
-    left:50%;
     transform: translate(-50%,-50%);
-    top: 135px;
 }
 
 .choose-theme{
