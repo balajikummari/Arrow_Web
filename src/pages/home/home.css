@@ -97,6 +97,9 @@ text-align: center;
     text-align: center;
     background-color: white;
 }
+.testimonials-heading{
+    text-align: center;
+}
 .testimonials-heading h1, .use-app-heading h1{
     padding-top: 1%;
     font-weight: normal;
@@ -116,6 +119,7 @@ text-align: center;
     font-weight: normal;
     margin-top: 0px;
     margin-bottom: 30px;
+    color: white;
 }
 
 .get-started-link{

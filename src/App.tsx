@@ -23,10 +23,10 @@ class App extends Component {
           <Header />
           <Switch>
             <Route exact path="/" component={HomePage} />
-            {/* <Route exact path="/products" component={ProductPage} />
-            <Route exact path="/pricing" component={PricingPage} />
-            <Route exact path="/demo" component={DemoPage} />
-            <Route exact path="/about" component={AboutPage} /> */}
+            {/* <Route exact path="/products" component={ProductPage} /> */}
+            {/* <Route exact path="/pricing" component={PricingPage} /> */}
+            {/* <Route exact path="/demo" component={DemoPage} /> */}
+            {/* <Route exact path="/about" component={AboutPage} /> */}
             <Route exact path="/customization" component={DetailsPage} />
             <Route exact path="/successpage" component={SuccessPage} />
             <Route render={() => <Redirect to={{pathname: "/"}} />} />
