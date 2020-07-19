@@ -1,0 +1,26 @@
+.active{
+    color:white !important;
+    /* text-decoration: underline !important; */
+  }
+
+.nav-link{
+  padding:15px 14px 16px 15px;
+  text-decoration: none;
+  color: #B3B0B0;
+}
+.nav-bar{
+  background-image: linear-gradient(to right,#2B5876, #280E3E);
+  padding: 5px 10px 5px 10px;
+  min-height: 70px;
+}
+.logo-div{
+    display: inline;
+}
+.logo-div img{
+    vertical-align:middle;
+}
+
+.menu-items{
+  float: right;
+  padding-top: 30px;
+}

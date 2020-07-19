@@ -1,0 +1,43 @@
+.success-div{
+    min-height: 90vh;
+}
+.success-div img{
+  display: block;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto
+}
+.success-div h2,h3{
+    text-align: center;
+}
+
+.pinkbutton{
+    color: white;
+    background-image: linear-gradient(to right,#2B5876, #280E3E);
+}
+.publish p{
+    opacity: 0.5;
+    font-size: smaller;
+}
+.publish{
+    clear: both;
+    text-align: center;
+    padding-top: 5%;
+}
+.success-heading{
+    float: left;
+    margin-left: 30%;
+    text-align: right;
+}
+.success-values{
+    float: left;
+    margin-left: 20px;
+    text-align: left;
+}
+.success-values a,p{
+    color: black;
+    display: block;
+    font-size: 14px;
+     margin-top: 23px; 
+     margin-bottom: 22px;
+}

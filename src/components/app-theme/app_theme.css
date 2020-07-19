@@ -1,0 +1,37 @@
+/* .apptheme{
+    background-color: green;
+} */
+.app-theme-list .apptheme:nth-child(4){
+    grid-column-start: 4;
+}
+.apptheme p{
+    opacity: 0.5;
+    padding-bottom: 5px;
+    float: right;
+    margin: 0%;
+    font-size: 10px;
+}
+.apptheme img{
+    max-width: 130px;
+    height: 250px;
+    border-style: solid;
+    border-width: 0.005px;
+    border-color: #2B5876;
+    clear: both;
+    background-color:#f0f0f0;
+}
+.apptheme input[type="radio"]{
+    float: left;
+    height: 18px;
+    width: 18px;
+}
+.apptheme label{
+    float: left;
+    text-align: left;
+    margin-top: 4px;
+    color: gray;
+    font-size: 14px;
+}
+/* .radio-box{
+    background-color: green;
+} */

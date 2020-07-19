@@ -1,0 +1,42 @@
+.footer{
+    clear: both;
+    color: white;
+    background-image: linear-gradient(to right,#2B5876,#280E3E);
+}
+.footer-left{
+    float: left;
+    width: 50%;
+}
+.footer-right{
+    float: right;
+    margin-top: 4%;
+}
+.footer-logo{
+    margin-left: -12px;
+}
+.footer-bottom{
+    clear: both;
+    background-color: #0d032b;
+    height: 60px;
+}
+.copy-right{
+    font-size: 12px;
+    padding: 20px 20px 0px 0px;
+    opacity: 0.4;
+    float: left;
+}
+
+.footer-bottom-right{
+    float: right;
+
+}
+.footer-bottom-right img{
+    padding: 10px;
+    right: 0;
+}
+.footer-link{
+    display: block;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: white;
+}

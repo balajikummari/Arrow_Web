@@ -1,0 +1,143 @@
+.get-started-div{
+  background: linear-gradient(to right,#2B5876, #280E3E);
+    min-height: 40%;
+    width: 100%;
+    margin: 0;
+    color: white;
+    text-align: center;
+    line-height: 22px;
+    padding: 1px 0px 30px 0px;
+}
+
+.home-div{
+    background-image: url('../../assets/bgimage.jpg'); 
+    background-repeat: repeat-x;
+    padding-top: 20%;
+}
+
+.testimonials{
+    color: #333;
+    }
+.step{
+    text-align: center;
+    width: 30%;
+    float: left;
+    line-height: 26px;
+    margin-bottom: 26px;
+}
+
+.step h3{
+    text-align: center;
+    color: #555;
+}
+.step p{
+    width: 76%;
+    margin: auto;
+}
+.use-step{
+    text-align: justify;
+    float: left;
+    width: 21%;
+    margin: 0 1% 1% 1%;
+    padding-left: 2.4%;
+    line-height: 26px;
+}
+
+.use-step:nth-child(2){
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+}
+
+.use-step:last-child{
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+}
+
+.icon{
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: white;
+}
+.achievements{
+    clear: both;
+    height: 100px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: linear-gradient(to right,#2B5876, #280E3E);
+}
+.achmt-inner{
+    display: flex;
+}
+.achievement{
+flex: 25%;
+text-align: center;
+}
+.achievement .icon{
+    margin: auto;
+    display: flex;
+}
+.achievement .icon h2{
+    margin: auto;
+    align-items: center;
+}
+
+.achievement img{
+    height: 32px;
+    width: 32px;
+    padding: 14px;
+}
+.achievement h4{
+    font-weight: normal;    
+    color: white;
+    text-align: center;
+}
+
+.app-use-div{
+    text-align: center;
+    background-color: white;
+}
+.testimonials-heading h1, .use-app-heading h1{
+    padding-top: 1%;
+    font-weight: normal;
+    color: #444;
+}
+
+.get-started-div button{
+    font-weight: bold;
+}
+.get-started-div h1{
+    padding-top: 20px;
+    font-weight: 200;
+    font-size: 32px;
+}
+.get-started-div p{
+    opacity: 0.6;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.get-started-link{
+    text-decoration: none;
+}
+.button { /* Green */
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+.white-button:hover{
+    color: #280E3E;
+    /* background-color: rebeccapurple; */
+}
+.white-button{
+    display: flex; justify-content: center;
+    margin: auto;
+    background-color: white;
+    color: black;
+}

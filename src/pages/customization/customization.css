@@ -1,0 +1,120 @@
+.reg-form{
+    display: flex;
+}
+.page-header{
+    font-size: 26px;
+    font-weight: 600;
+    padding: 20px 0px 20px 50px;
+}
+input{
+border-radius: 5px;
+border: solid 2px #dedede;
+height: 28px;
+width: 280px;
+padding: 6px;
+margin-right: 5px;
+margin-bottom: 20px;
+background-color: transparent;
+border-image: none;
+}
+
+textarea{
+    font-family: sans-serif;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 266px;
+    border-radius: 5px;
+    border: solid 2px #dedede;
+}
+
+.basic-details
+{
+    float: left;
+    flex: 50%;
+    padding: 0px 0px 0px 25px;
+}
+input[type=submit]{
+  background-image: linear-gradient(to right,#2B5876, #280E3E);
+    width: 100px;
+    height: 36px;
+    border-radius: 18px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+.submit-box{
+    padding: 30px 0px 40px 16px;
+    display: flex;
+    align-items: center;
+}
+
+
+.basic-details input[type=file]{
+    display: none;
+}
+
+
+.basic-details img{
+    height: 150px;
+    width: 150px;
+}
+
+.image-container{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-top: 10px;
+}
+.upload-image{
+    cursor: pointer;
+    padding: 9px 1px;
+    color: white;
+    background-color: rgba(43, 87, 117, 0.8);
+    font-size: 12px;
+    position: absolute;
+    width: 150px;
+    text-align: center;
+    left:50%;
+    transform: translate(-50%,-50%);
+    top: 135px;
+}
+
+.choose-theme{
+    float: left;
+    flex: 50%;
+    padding-left: 40px;
+}
+.app-theme-list{
+    height: 300px;
+    overflow-x: auto;
+    display: inline-grid;
+    grid-gap: 40px;
+}
+.choose-theme-div p
+{
+    cursor: pointer;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

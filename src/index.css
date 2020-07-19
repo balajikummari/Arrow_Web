@@ -1,0 +1,12 @@
+body {
+height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
